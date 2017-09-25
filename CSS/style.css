@@ -1,0 +1,104 @@
+body{
+	font: 15px;
+	padding:0;
+	margin:0;
+	background-color:#f4f4f4;	
+}
+/*global*/
+.container{
+	width:80%;
+	margin: auto;
+	overflow:hidden;
+	
+}
+	
+
+.Meat{
+	padding-left: 4cm;
+	padding-right: 4cm;
+	
+}
+
+
+.sideProjects{
+	
+	padding-left: 2cm;
+	padding-right: 2cm;
+}
+.schoolProjects{
+	
+	padding-left: 2cm;
+	padding-right: 2cm;
+}
+
+ul{
+	margin:0;
+	padding:0;
+}
+
+/*header*/
+header{
+	background:#cc0033 ;
+	color:#f4f4f4;
+	padding-top:10px;
+	min-height:50px;
+	border-bottom:#5f6a72 3px solid;
+}
+
+/*links in the header*/
+header a{
+	color:#f4f4f4;
+	text-decoration:none;
+	text-transform: uppercase;
+	font-size:16px;
+}
+
+header li{
+	float:left;
+	display:inline;
+	padding: 23px 20px 23px 20px;
+}
+
+header #myInfo{
+	float:left;
+	padding: 0px 0px 0px 0px;
+}
+
+header nav{
+	float:right;
+	margin-top:10px;
+}
+
+/*changes header color*/
+header .highlight, header .current a{
+	color:000000;
+	font-weight:bold;
+}
+
+header a:hover{
+	color:#cccccc;
+	font-weight:bold;
+}
+
+/*Images*/
+.Rutgers{
+	text-align:center;
+}
+
+.CCM{
+	text-align:center;
+}
+
+
+
+/*footer*/
+footer{
+	text-align:center;
+	background: #cc0033;
+	color:#f4f4f4;
+	padding-top:30px;
+	min-height:70px;
+	border-top:#5f6a72 3px solid;
+	border-bottom:#5f6a72 3px solid;
+	
+}
